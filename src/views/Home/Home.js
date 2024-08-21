@@ -34,8 +34,9 @@ function Home() {
           imgUrl="https://n.nordstrommedia.com/it/c43aac12-90a3-4f48-8124-ef6514754b45.jpeg?h=750&w=651"
           title="Cocktail Dresses"
           description="The magic of a cocktail dress is its ability to look formal yet understated. The 
-          knee-length style is perfect for (as the name indicates) cocktail parties—i.e., events that are 
-          elegant but not formal enough for a ballgown."
+          knee-length style is perfect for cocktail parties, events that are 
+          elegant but not formal enough for a ballgown. Because cocktail dresses are available with different 
+          necklines and silhouettes."
           isHighRating={true}
           price={2500}
         />

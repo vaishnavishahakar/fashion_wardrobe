@@ -39,3 +39,21 @@
 .dress-card-price{
     font-size: 20px;
 }
+
+.dress-card-button{
+    background-color: grey;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    display: block;
+    margin: 10px auto;
+    font-size: 15px;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.dress-card-button:hover{
+    background-color: rgb(111, 110, 110);
+    transition: 0.3s;
+    border-radius: 20px;
+}

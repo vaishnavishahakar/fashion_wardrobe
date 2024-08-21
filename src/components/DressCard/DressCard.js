@@ -24,6 +24,8 @@ function DressCard({ imgUrl, title, description, isHighRating, price }) {
         </p>
     : "Not Available"
     }
+
+    <button className='dress-card-button'>Add to Cart</button>
         
     </div>
   );
