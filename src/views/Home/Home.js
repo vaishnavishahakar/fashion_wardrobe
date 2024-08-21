@@ -16,6 +16,7 @@ function Home() {
         great on those with pear-shaped figures, as it draws attention to the shoulders. Its versatility also 
         makes it a go-to, since it easily transitions from casual to dressy with the addition of elegant accessories."
           isHighRating={true}
+          price={1500}
         />
 
         <DressCard
@@ -26,6 +27,7 @@ function Home() {
         comfortable enough for unwinding at the beach or lounging around the house, but it's also easy to dress 
         up with the right accessories."
           isHighRating={false}
+          price={2000}
         />
 
         <DressCard
@@ -35,6 +37,7 @@ function Home() {
           knee-length style is perfect for (as the name indicates) cocktail parties—i.e., events that are 
           elegant but not formal enough for a ballgown."
           isHighRating={true}
+          price={2500}
         />
 
         <DressCard
@@ -44,6 +47,7 @@ function Home() {
           formal dress that touches the floor. You can find a ballgown for any body type, as there's a multitude 
           of styles available, ranging from full-skirted princess dresses to fitted mermaid silhouettes."
           isHighRating={false}
+          price={3000}
         />
       </div>
     </div>

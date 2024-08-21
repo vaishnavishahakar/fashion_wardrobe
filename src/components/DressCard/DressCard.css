@@ -35,3 +35,7 @@
     border-radius: 10px;
     object-fit: cover;
 }
+
+.dress-card-price{
+    font-size: 20px;
+}
