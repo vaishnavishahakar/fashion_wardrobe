@@ -6,7 +6,11 @@ import { THEME, PRODUCTS, MAIN_TITLE, TAGLINE } from './../../config/data';
 
 function Home() {
   return (
-    <div>
+    <div 
+    style={{backgroundImage: 'url("https://images.pexels.com/photos/3965551/pexels-photo-3965551.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")', 
+          backgroundRepeat:"no-repeat", 
+          backgroundSize: "cover"}}>
+      
       <h1 className="main-title" style={{color: THEME.highlight, margin: 0}}>
         { MAIN_TITLE }
         </h1>

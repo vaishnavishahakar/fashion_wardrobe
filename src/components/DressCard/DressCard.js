@@ -12,7 +12,7 @@ function DressCard({ imgUrl, title, description, isHighRating, price }) {
       <h1 className='dress-card-title' style={{color: THEME.highlight}}>
         {title}
         </h1>
-      <p>
+      <p style={{color: THEME.stroke}}>
         {description}
         </p>
 
@@ -26,7 +26,7 @@ function DressCard({ imgUrl, title, description, isHighRating, price }) {
     : "Not Available"
     }
 
-    <button className='dress-card-button'>Add to Cart</button>
+    <button className='dress-card-button' style={{backgroundColor: THEME.highlight}}>Add to Cart</button>
         
     </div>
   );
