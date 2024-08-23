@@ -2,13 +2,14 @@ import React from 'react';
 import "./DressCard.css";
 import highRatingIcon from "./high-rating.png"
 import lowRatingIcon from "./low-rating.png"
+import {THEME} from '../../config/data';
 
 function DressCard({ imgUrl, title, description, isHighRating, price }) {
   return (
     <div className='dress-card'>
         <img src={imgUrl} className='dress-card-image' alt='dress'/>
 
-      <h1 className='dress-card-title'>
+      <h1 className='dress-card-title' style={{color: THEME.highlight}}>
         {title}
         </h1>
       <p>

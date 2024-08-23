@@ -3,3 +3,13 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+.main-title{
+    text-align: center;
+    font-size: 50px;
+    margin: 20px 0;
+}
+.tagLine{
+    text-align: center;
+    font-size: 20px;
+    margin: 20px 0;
+}
